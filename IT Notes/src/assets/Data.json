@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "language_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSlICirWdh0l7LyfHBzAlkfLwbhg6vwx8WVqdhDL5vWSaQaxf73xPs2V5TvKhQz5lcv1M&usqp=CAU",
+    "language_name": "HTML",
+    "about": "HTML (HyperText Markup Language) is the standard markup language for creating and designing web pages.",
+    "link": "https://www.youtube.com/watch?v=5ccq_nLHneE",
+    "note": "https://www.geeksforgeeks.org/html-tutorial/"
+  },
+  {
+    "id": 2,
+    "language_image": "https://logowik.com/content/uploads/images/css-icon1720860975.logowik.com.webp",
+    "language_name": "CSS",
+    "about": "CSS (Cascading Style Sheets) is used to control the style and layout of web pages, including design, colors, and fonts.",
+    "link": "https://www.youtube.com/watch?v=MSICFljRcb4&t=2s",
+    "note": "https://www.geeksforgeeks.org/css-tutorial/"
+  },
+  {
+    "id": 3,
+    "language_image": "https://blog.apify.com/content/images/size/w1200/2024/02/How-to-save-an-image-with-Python.png",
+    "language_name": "Python",
+    "about": "Python is a versatile and beginner-friendly programming language known for its readability and vast ecosystem.",
+    "link": "https://www.youtube.com/watch?v=Ca5DLSDfPec&list=PLu71SKxNbfoBsMugTFALhdLlZ5VOqCg2s",
+    "note": "https://www.geeksforgeeks.org/python-programming-language-tutorial/"
+  },
+  {
+    "id": 4,
+    "language_image": "https://miro.medium.com/v2/resize:fit:1400/1*a3BHGbuAMpOaZj6HkTrNqA.png",
+    "language_name": "JavaScript",
+    "about": "JavaScript is a popular language for web development, used for creating dynamic and interactive web pages.",
+    "link": "https://www.youtube.com/results?search_query=www.youtube.com%2F%40procodrr%2Fjavascript%2Fplaylist%3Flist",
+    "note": "https://www.geeksforgeeks.org/javascript/"  
+  },
+  {
+    "id": 5,
+    "language_image": "https://miro.medium.com/v2/resize:fit:1400/0*y6IcBe5J1AdALzXw.png",
+    "language_name": "React",
+    "about": "React is a popular JavaScript library for building user interfaces, particularly for single-page applications.",
+    "link":"https://www.youtube.com/watch?v=_rTCzxg6VmM&list=PLfEr2kn3s-bqpPUbeTZP6iRXTxTLwNB7F",
+    "note": "https://www.geeksforgeeks.org/react/"
+  },
+  {
+    "id": 6,
+    "language_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo5rLh0Ed_H4b8ZM08EK6JZ1gBjVYVDmfmRQ&s",
+    "language_name": "Node.js",
+    "about": "Node.js is a JavaScript runtime built on Chrome's V8 engine, enabling server-side development with JavaScript.",
+    "link":"https://www.youtube.com/watch?v=ohIAiuHMKMI&list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo",
+    "note": "https://www.geeksforgeeks.org/nodejs/"
+  },
+  {
+    "id": 7,
+    "language_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtMqq_mpi-9ki765pfmKw8Up9qSwJi2JM-V8QLj_i_maYPRllPxoPHoepMI51z7GM7TvE&usqp=CAU",
+    "language_name": "Express.js",
+    "about": "Express.js is a flexible Node.js web application framework that provides robust features for building APIs and web apps.",
+    "link": "https://www.youtube.com/watch?v=T55Kb8rrH1g&list=PLbtI3_MArDOkXRLxdMt1NOMtCS-84ibHH",
+    "note": "https://www.geeksforgeeks.org/nodejs/"
+  },
+  {
+    "id": 8,
+    "language_image": "https://cdn.analyticsvidhya.com/wp-content/uploads/2024/05/Mongodb.png",
+    "language_name": "MongoDB",
+    "about": "MongoDB is a NoSQL database program that uses JSON-like documents with optional schemas for storing data.",
+    "link": "https://www.youtube.com/watch?v=rU9ZODw5yvU&t=4660s",
+    "note": "https://www.w3schools.com/mongodb/"
+  },
+  {
+    "id": 9,
+    "language_image": "https://technologystrive.com/static/39cc26077b657be39b59dff23f40a8cc/9a63f/java.png",
+    "language_name": "Java",
+    "about": "Java is a versatile and platform-independent language widely used in enterprise applications, mobile development, and more.",
+    "link": "https://www.youtube.com/watch?v=cDd-eUtbm2k&list=PLlhM4lkb2sEhfuXL-2BDrJ67WkUdQ2v9b",
+    "note": "https://www.geeksforgeeks.org/java/"
+  },
+  {
+    "id": 10,
+    "language_image": "https://c8.alamy.com/comp/K5BGYD/sql-development-language-as-a-coding-concept-K5BGYD.jpg",
+    "language_name": "SQL",
+    "about": "SQL is a domain-specific language used in programming and designed for managing data in relational databases.",
+    "link" :"https://www.youtube.com/watch?v=Bp703NkC00Q&t=361s",
+    "note": "https://www.w3schools.com/sql/"
+
+  },
+  {
+    "id": 13,
+    "language_image": "https://www.smartsight.in/wp-content/uploads/2020/11/php.png",
+    "language_name": "PHP",
+    "about": "PHP is a server-side scripting language widely used for web development and creating dynamic web applications.",
+    "link" :"https://www.youtube.com/watch?v=z8gIVootnUQ",
+    "note": "https://www.geeksforgeeks.org/php-tutorial/"
+  },
+  
+  {
+    "id": 15,
+    "language_image": "https://images.ctfassets.net/6qz05ishztgm/675HAe4bjOPy4G72e2HFEe/b99a10b438cb9231475e7f505ba8bf9b/how-to-write-better-typescript-feature-img.png",
+    "language_name": "TypeScript",
+    "about": "TypeScript is a superset of JavaScript that adds static typing and modern features to JavaScript development.",
+    "link" :"https://www.youtube.com/watch?v=Xciunyug99U&list=PLwGdqUZWnOp0xfHQFmlL52b_6-QZ0mnk_",
+    "note": "https://www.w3schools.com/typescript/"  
+  }
+]

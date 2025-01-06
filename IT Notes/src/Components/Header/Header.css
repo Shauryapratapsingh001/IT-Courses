@@ -1,0 +1,111 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Space out the sections */
+  align-items: center; /* Align items vertically in the center */
+  padding: 0 20px;
+  background-color: #0e417f; /* Optional: background color */
+  height: 12vh;
+  position: fixed;
+  z-index: 1000; /* Ensures it stays above other content */
+}
+
+.menu{
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+.menu span{
+  height: 0.4rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 0.2rem;
+}
+
+.hearder-logo {
+  display: flex;
+  margin-left: 5rem;
+  align-items: center;
+}
+
+.hearder-logo h2 {
+  margin-left: 10px; /* Space between the image and text */
+  font-size: 2rem;
+}
+
+.header-list {
+  text-align: center;
+}
+
+.header-list .items {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center; /* Center items horizontally */
+  font-size: large;
+}
+
+.header-list .items li {
+  margin: 0 15px; /* Space between items */
+}
+
+.header-list .items li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header-list .items li a:hover {
+  color: orangered;
+}
+
+.header-last {
+  display: flex;
+  margin-right: 5rem;
+  align-items: center;
+}
+
+.header-last .social-media {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-last .social-media li {
+  margin: 0 10px; /* Space between social icons */
+}
+
+.iconss,
+.icons,
+.icon {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.iconss:hover,
+.icons:hover,
+.icon:hover {
+  transform: scale(1.2); /* Slightly enlarge on hover */
+}
+
+/* Mobile Responsive Styling */
+@media (max-width: 776px){
+  .header-list{
+    width: 100%;
+    justify-content: end;
+  }
+  .header-last{
+    display: none;
+  }
+
+
+
+}

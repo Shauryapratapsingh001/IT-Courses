@@ -1,0 +1,10 @@
+
+.main-btn{
+    background-color: green;
+    padding: 0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}

@@ -1,0 +1,64 @@
+
+.card-section{
+    width: 280px;
+    height: 400px;
+    background-color:#0e417f;
+    border-radius: 30px;
+    overflow: hidden;
+    color: white;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 10px black   
+}
+
+.card-section:hover{
+    transform: scale(1.1); /* Enlarges the card */
+    box-shadow:0 8px 15px black;
+    transition: color 0.8s;
+
+}
+
+.card-img{
+  width: 100%; /* Ensure the image section takes full width */
+  height: 190px; /* Set a fixed height for the image section */
+  overflow: hidden; /* Hide overflow if the image is larger */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+.card-img img {
+    width: 100%; /* Make the image take the full width of the div */
+    height: 100%; /* Make the image take the full height of the div */
+    object-fit: cover; /* Ensure the image fits and crops to fill the div */
+  }
+  
+.card-discreption{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.card-about{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.card-btn{
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; 
+}
+
+
+@media (max-width: 768px) {
+  .card-section {
+    padding: 20px;
+    flex-direction: column;
+    grid-template-columns: (1 , 0.3fr);
+  }
+
+  .dashboard-next {
+    font-size: 2rem;
+  }
+
+  .dashboard-card {
+    padding: 15px;
+  }
+}

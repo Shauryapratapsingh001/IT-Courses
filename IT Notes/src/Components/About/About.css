@@ -1,0 +1,82 @@
+/* About Page Styles */
+.about-page {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f4f4f9;
+  height: 100%;
+   
+}
+
+.about-hero {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 30px;
+  /* background: linear-gradient(115deg, #0e417f, green); */
+  color: orangered;
+  padding: 10px 5px;
+  border-radius: 25px;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: orangered;
+}
+
+.about-tagline {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px black 
+}
+
+.about-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}
+
+.about-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-content li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.about-content li::before {
+  content: "✔";
+  color: #007bff;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 20px;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    padding: 15px;
+  }
+}
