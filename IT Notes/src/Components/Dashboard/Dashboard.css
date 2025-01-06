@@ -92,6 +92,6 @@ h5 {
     width: 100%;
     flex-direction: column;
     justify-content: start;
-    grid-template-columns: (2 ,1fr);
+    grid-template-columns: (2 , 0.5fr);
   }
 }
