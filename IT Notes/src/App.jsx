@@ -19,7 +19,7 @@ const App = () => {
         { path: "about", element: <About /> },
         { path: "contact", element: <Contact /> },
         { path: "notes", element: <Notes /> },
-        {path: "login", element: <Login />,},
+        {path: "login", element: <Login />},
         { path: "signup", element: <Signup /> }
       ]
     },
