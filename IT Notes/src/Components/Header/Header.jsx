@@ -66,7 +66,7 @@ export const Header = () => {
             <li>
               <Link
                 target="_blank"
-                to="https://github.com/Shauryapratapsingh001"
+                to="https://github.com/Shauryapratapsingh001?tab=repositories"
               >
                 {" "}
                 <FaGitSquare className="icon" size="2rem" color="yellow" />{" "}
@@ -75,7 +75,7 @@ export const Header = () => {
           </ul>
         </div>
         <div className="menu">
-           <a href="#"> <GiHamburgerMenu /> </a> 
+          <a href="#"> <GiHamburgerMenu /> </a>
         </div>
       </section>
     </>

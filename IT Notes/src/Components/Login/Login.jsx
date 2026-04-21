@@ -6,11 +6,7 @@ import { Outlet, Link } from "react-router-dom";
 import { Signup } from "../Signup/Signup";
 
 export const Login = () => {
-
-
-  const onClick= ()=>{
-
-  }
+  const onClick = () => {};
 
   return (
     <>
@@ -26,24 +22,24 @@ export const Login = () => {
               <input type="text" placeholder="E-mail" />
               <label htmlFor="password">Password</label>
               <input type="password" placeholder="Password" />
-              <Button 
+              <Button
                 label="Login"
                 style={{
                   backgroundColor: "#28a745",
                   width: "60px",
                   color: "White",
                   borderRadius: "50px",
-                  textAlign: "Centre"
+                  textAlign: "Centre",
                 }}
                 onClick={onClick}
               />
             </form>
-            <p>Create an account? <Link to="/signup">Sign Up</Link></p>                
+            <p>
+              Create an account? <Link to="/signup">Sign Up</Link>
+            </p>
           </div>
         </div>
       </div>
     </>
   );
 };
-
-
